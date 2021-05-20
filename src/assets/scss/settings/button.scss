@@ -1,0 +1,12 @@
+.button-pokedex {
+  background-color: $color-primary;
+  border: none;
+  border-radius: 60px;
+  color: white;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: bold;
+  &:active {
+    background-color: $color-accent;
+  }
+}
